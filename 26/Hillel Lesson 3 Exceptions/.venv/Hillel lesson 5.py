@@ -101,16 +101,28 @@
 
 #завдання 2
 
-original_list = [2, -5, 8, -3, 0, -7, 10, 1]
-even_numbers = [x for x in original_list if x % 2 == 0]
-print(even_numbers)
+# original_list = [2, -5, 8, -3, 0, -7, 10, 1]
+# even_numbers = [x for x in original_list if x % 2 == 0]
+# print(even_numbers)
+#
+# odd_numbers = [x for x in original_list if x % 2 != 0]
+# print(odd_numbers)
+#
+# negative_numbers = [x for x in original_list if x < 0]
+# print(negative_numbers)
+#
+# positive_numbers = [x for x in original_list if x > 0]
+# print(positive_numbers)
 
-odd_numbers = [x for x in original_list if x % 2 != 0]
-print(odd_numbers)
+# додаткове завдання по матрицях *
+# numbers = [5,2,9,True,]
+# numbers.append(100)
+# numbers.insert(True,False)
+#
+# print(numbers)
 
-negative_numbers = [x for x in original_list if x < 0]
-print(negative_numbers)
+matrix = [
 
-positive_numbers = [x for x in original_list if x > 0]
-print(positive_numbers)
 
+[48,25,62,]
+]
