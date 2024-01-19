@@ -121,8 +121,5 @@
 #
 # print(numbers)
 
-matrix = [
 
 
-[48,25,62,]
-]
