@@ -1,0 +1,35 @@
+# завдання 1
+# def power(base, exponent):
+#     if exponent == 0:
+#         return 1
+#     else:
+#         return base * power(base, exponent - 1)
+#
+# # Приклад використання:
+# base = 2
+# exponent = 3
+# result = power(base, exponent)
+# print(f"{base}^{exponent} = {result}")
+
+#завдання 2
+# def print_stars(N):
+#     if N > 0:
+#         print("*", end="")
+#         print_stars(N - 1)
+#     else:
+#         print()
+# N = int(input("Введіть кількість зірок (N): "))
+# print_stars(N)
+
+#завдання 3
+# def sum_range(a, b):
+#     if a > b:
+#         return 0
+#     else:
+#         return a + sum_range(a + 1, b)
+#
+# # Приклад використання:
+# a = int(input("Введіть a: "))
+# b = int(input("Введіть b: "))
+# result = sum_range(a, b)
+# print(f"Сума чисел у діапазоні від {a} до {b} дорівнює {result}")
