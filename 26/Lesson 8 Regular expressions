@@ -1,0 +1,32 @@
+# import re
+#
+# def validate_home_phone(phone):
+#     return re.match(r'^\d{7,}$', phone)
+#
+# def validate_mobile_phone(phone):
+#     return re.match(r'^\+?\d{10,}$', phone)
+#
+# def validate_email(email):
+#     return re.match(r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$', email)
+#
+# def validate_full_name(name):
+#     return re.match(r'^[a-zA-Zа-яА-Я]{2,}\s[a-zA-Zа-яА-Я]{2,}\s[a-zA-Zа-яА-Я]{2,}$', name)
+#
+# def validate_password(password):
+#     return re.match(r'^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_+])[A-Za-z\d!@#$%^&*()_+]{8,16}$', password)
+#
+# #Приклади валідації
+# home_phone = '1234567'
+# mobile_phone = '+1234567890'
+# email = 'user@example.com'
+# full_name = 'John Doe Smith'
+# password = 'Passw0rd!'
+# invalid_password = 'weakpassword'
+#
+# #Виведення результату
+# print(f"Домашній номер: {validate_home_phone(home_phone)}")
+# print(f"Мобільний номер: {validate_mobile_phone(mobile_phone)}")
+# print(f"Електронна пошта: {validate_email(email)}")
+# print(f"ПІБ клієнта: {validate_full_name(full_name)}")
+# print(f"Пароль: {validate_password(password)}")
+# print(f"Невірний пароль: {validate_password(invalid_password)}")
